@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Library Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>📚 Library Management System</h1>
+        <p>Manage Books, Students and Library Records</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Books</a>
+        <a href="#">Students</a>
+        <a href="#">Issue Book</a>
+        <a href="#">Return Book</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <section class="welcome">
+            <h2>Welcome to the Library</h2>
+            <p>
+                Easily manage books, students, issued books and returned books.
+            </p>
+        </section>
+
+        <!-- Dashboard Cards -->
+        <section class="dashboard">
+
+            <div class="card">
+                <h3>📖 Total Books</h3>
+                <p>100</p>
+            </div>
+
+            <div class="card">
+                <h3>👨‍🎓 Students</h3>
+                <p>50</p>
+            </div>
+
+            <div class="card">
+                <h3>📕 Issued Books</h3>
+                <p>20</p>
+            </div>
+
+            <div class="card">
+                <h3>📗 Available Books</h3>
+                <p>80</p>
+            </div>
+
+        </section>
+
+        <!-- Quick Actions -->
+        <section class="actions">
+
+            <h2>Quick Actions</h2>
+
+            <button onclick="showMessage('Add Book')">
+                Add Book
+            </button>
+
+            <button onclick="showMessage('Issue Book')">
+                Issue Book
+            </button>
+
+            <button onclick="showMessage('Return Book')">
+                Return Book
+            </button>
+
+            <button onclick="showMessage('View Books')">
+                View Books
+            </button>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Library Management System</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
